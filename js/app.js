@@ -1,6 +1,10 @@
 // Dom7
 var $ = Dom7;
 
+// Swiper
+var swiper = app.swiper.get('.swiper-init');
+swiper.autoplay.start();
+
 // Theme
 var theme = 'auto';
 if (document.location.search.indexOf('theme=') >= 0) {
